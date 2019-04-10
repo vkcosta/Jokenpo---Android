@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <!-- <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Hello World!"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Escolha uma opção"
+            android:padding="24px"
+            android:textSize="64px"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButtonPedra"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/pedra"
+            android:layout_margin="10dp"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonPapel"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/papel"
+        android:layout_margin="10dp"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonTesoura"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/tesoura"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/imagemJogador"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            android:layout_margin="10dp"/>
+
+        <ImageButton
+            android:id="@+id/imagemX"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/x"
+            android:layout_margin="10dp"/>
+
+        <ImageButton
+            android:id="@+id/imagemComputador"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
